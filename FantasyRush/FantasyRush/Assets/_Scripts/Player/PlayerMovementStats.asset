@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d35552c27dd2a449cef2fbb802473c, type: 3}
+  m_Name: PlayerMovementStats
+  m_EditorClassIdentifier: 
+  MoveThreshold: 0.25
+  MaxWalkSpeed: 17.5
+  GroundAcceleration: 15
+  GroundDeceleration: 15
+  AirAcceleration: 5
+  AirDeceleration: 5
+  WallJumpMoveAcceleration: 5
+  WallJumpMoveDeveleration: 5
+  MaxRunSpeed: 17.5
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  GroundDetectionRayLength: 0.02
+  HeadDetectionRayLength: 0.02
+  HeadWidth: 0.75
+  WallDetectionRayLength: 0.125
+  WallDetectionRayHeightMultiplier: 0.9
+  JumpHeight: 5.5
+  JumpHeightCompensationFactor: 1.054
+  TimeTillJumpApex: 0.5
+  GravityOnReleaseMultiplier: 5
+  MaxFallSpeed: 35
+  NumberOfJumpsAllowed: 1
+  ResetJumpsOnWallSlide: 1
+  TimeForUpwardsCancel: 0.027
+  ApexThreshold: 0.97
+  ApexHangTime: 0.075
+  JumpBufferTime: 0.125
+  JumpCoyoteTime: 0.1
+  WallSlideSpeed: 5
+  WallSlideDecelerationSpeed: 1
+  WallJumpDirection: {x: -20, y: 6.5}
+  WallJumpPostBufferTime: 0.125
+  WallJumpGravityOnReleaseMultiplier: 1
+  DashTime: 0.15
+  DashSpeed: 30
+  TimeBtwDashesOnGround: 0.225
+  ResetDashOnWallSlide: 1
+  NumberOfDashes: 1
+  DashDiagonallyBias: 0.4
+  DashGravityOnReleaseMultiplier: 1
+  DashTimeForUpwardsCancel: 0.027
+  DebugShowIsGroundedBox: 0
+  DebugShowHeadBumpBox: 0
+  DebugShowWallHitBox: 0
+  ShowWalkJumpArc: 0
+  ShowRunJumpArc: 0
+  StopOnCollision: 1
+  DrawRight: 1
+  ArcResolution: 20
+  VisualizationSteps: 90
